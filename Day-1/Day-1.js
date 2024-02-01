@@ -91,7 +91,7 @@ console.log(myValue)
 //let functions- Function is Scoped,hoisting is not possible
 //re-assign re-declare notpossible
 
-//joisting is js behaviour 
+//hoisting is js behaviour 
 
 // myname = 'Atharva'; // assigning
 
