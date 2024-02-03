@@ -14,6 +14,7 @@
 //     "val1 is bigger than val 2"
 //     )
 // } else if (value1>value3){
+    
 //     console.log("val 1 is bigger than val 2 and 3")
 // }else (
 //     console.log("value3 is bigger")
