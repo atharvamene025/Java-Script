@@ -61,13 +61,57 @@
 
 // Q To Find The Factorial Of given Node
 
-function fact(){
+// function fact() {
 
-    var ans=1
-    for(var i=value;i>=value;i--){
-        ans*=i
-    }
-    return ans
-}
+//     var ans = 1
+//     for (var i = value; i >= value; i--) {
+//         ans *= i
+//     }
+//     return ans
+// }
 
-fact(10)
+// fact(10)
+
+
+// function Atharva(){
+
+//     console.log("This Function is Triggererd")
+// }
+
+// Atharva();
+// Atharva();
+// Atharva();
+
+
+// Q. Addition Using Functions
+
+                          //we can write var's outside the function also as they have global Scope
+
+
+// function addition(){
+
+
+//     console.log(value1+value2)
+
+// }
+
+//     addition(10,20);
+
+
+// var myname="Atharva";
+// console.log(myname,typeof(myname))
+
+
+// var myname;
+
+// if(myname==undefined){
+//     myname="Awdiz"
+//     console.log(myname)
+// }else{
+//     console.log("my name is undefined")
+// }
+
+// 
+
+var array=["atharva","raginii","Smita","adw","hero0","pratik"]
+console.log(array[array.length-1])

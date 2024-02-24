@@ -1,4 +1,4 @@
-var name = "abcdacda"
+var name = "aba"
 
 
 function isstringpalindrome(string) {
