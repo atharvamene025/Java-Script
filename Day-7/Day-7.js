@@ -1,13 +1,20 @@
-var name = "aba"
+// Pallindrome
+
+var array="abcdsnodba"
 
 
-function isstringpalindrome(string) {
-    for (var i = 0; i < Math.floor(string.length / 2); i++) {
-        console.log(string[i], string[string.length - 1 - i])
-        if (string[i] !== string[string.length - 1 - i]) {
-            return "Not Palindrome"
+function isStringPalindrome(string){
+
+        for(var i=0;i<=Math.floor(string.length/2);i++){
+
+              if(string[i] !== string[string.length-1-i]){
+
+                return "Its Not Palindrome"
+              }
         }
-     }
-      "It Is A Palindrome"
+
+        return"Its A Palindrome"
+
 }
-console.log(isstringpalindrome(name))
+
+console.log(isStringPalindrome(array))

@@ -61,16 +61,16 @@
 
 // Q To Find The Factorial Of given Node
 
-// function fact() {
+function fact() {
 
-//     var ans = 1
-//     for (var i = value; i >= value; i--) {
-//         ans *= i
-//     }
-//     return ans
-// }
+    var ans = 1
+    for (var i = value; i >= value; i--) {
+        ans *= i
+    }
+    return ans
+}
 
-// fact(10)
+fact(10)
 
 
 // function Atharva(){
@@ -113,5 +113,9 @@
 
 // 
 
-var array=["atharva","raginii","Smita","adw","hero0","pratik"]
-console.log(array[array.length-1])
+// var students=["atharva","pratik","rahul","HII","swaraj"]
+
+// students.push("Awdiz")
+// console.log(students)
+
+// push is used to add new elments to the end of the array,

@@ -1,20 +1,19 @@
-var array = [1, 2, 1, 3, 4, 5, 2, 3, 5, 1];
-var MyAnswer = {}
-var prime={}
-for (var i = 0; i < array.length; i++) {
-    if (MyAnswer[array[i]] === undefined) {
-        MyAnswer[array[i]] = 1
 
-        if(MyAnswer[array[i]]%2==0 && MyAnswer[array[i]%3==0]){
-        
-            return prime
-        }
-    }
-    
-    else {
-        MyAnswer[array[i]]++
-    }
-}
+// var array=[] block brackets ia array
 
-console.log(MyAnswer)
-console.log(prime)
+// var object={} curly braces is object
+
+
+// var myObject={ name:"atharva", surname:"Mene", age: 21 ,isOpen: true, student:["a","b"]}
+
+// console.log(myObject)
+// console.log(myObject.student)
+// console.log(myObject.age)
+// console.log(myObject.name)
+// console.log(myObject.surname)
+
+// myObject["ultra"]="ultra"
+
+// console.log(myObject)
+
+var array = [1, 2, 1, 3, 4, 5, 2, 3, 5];
