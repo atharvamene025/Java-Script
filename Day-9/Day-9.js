@@ -18,10 +18,11 @@
 // setTimeout(setInterval, 5000)
  
 
-console.log("1")
-setTimeout(()=> { console.log("2")}, 3000)
-console.log("3")
-setTimeout(()=> { console.log("4")}, 5000)
-console.log("6")
-setTimeout(()=> { console.log("7")}, 1000)
-setTimeout(()=>{console.log("8")}, 1200)
+// console.log("1")
+// setTimeout(()=> { console.log("2")}, 3000)
+// console.log("3")
+// setTimeout(()=> { console.log("4")}, 5000)
+// console.log("6")
+// setTimeout(()=> { console.log("7")}, 1000)
+// setTimeout(()=>{console.log("8")}, 1200)
+

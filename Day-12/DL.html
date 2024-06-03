@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Driving Liscence</h1>
+    <input id="age" type="number" placeholder="Type Your Age" />
+    <button onclick="checkUserIsValid()">Check</button>
+    <p id="displayResult"></p>
+</body>
+
+<script src="DL.js"> 
+
+
+
+
+    function checkUserIsValid() {
+
+        const age = document.getElementById("age").value;
+        console.log(age, "age")
+        if(age>18 && age< 81){
+
+            alert("You are Eligible For Dl")
+        }else if(age==18){
+            alert("You are Eligible For learninig Liscence")
+        }else{
+
+            alert("You are not eligible for DL")
+        }
+
+        const pTag =document.getElementById("displayResult");
+        pTag.innerText ="Hiii"
+        document.getElementById("age").value = ""
+
+
+    }
+
+
+</script>
+
+</html>
